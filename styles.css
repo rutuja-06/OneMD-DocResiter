@@ -1,0 +1,148 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8));
+}
+
+
+.container{
+    width: 100% ;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform : translate(-50%, -50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px 60px;
+    color: #3c00a0;
+    position: relative;
+}
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Style the form fields and labels */
+.formdesign {
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+.formdesign i{
+    margin-left: 15px;
+    color: #999;
+}
+form p{
+    text-align: left;
+    font-size: 13px;
+}
+
+.formdesign #degrees label {
+    float: right; /* Float the label to the right */
+    margin-left: 10px; /* Add some space between the label and the select box */
+}
+
+.formdesign label {
+    display: block;
+    /* font-weight: bold; */
+    margin-bottom: 5px;
+    padding-right: 50px;
+    padding-left: 20pxs;
+}
+
+/* .formdesign input[type="text"], */
+/* .formdesign input[type="email"], */
+/* .formdesign input[type="password"], */
+/* .formdesign input[type="phone"], */
+.formdesign input[type="date"],
+.formdesign select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the multiselect dropdown */
+.multiselect {
+    position: relative;
+}
+
+.multiselect select {
+    display: none;
+}
+
+.dropdown-toggle {
+    background-color: #3c00a0;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-toggle:hover {
+    background-color: #0056b3;
+}
+
+/* Style the error messages */
+.formerror {
+    color: red;
+    font-size: 14px;
+}
+
+/* Style the submit button */
+.but {
+    background-color: #3c00a0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.but:hover {
+    background-color: #0056b3;
+}

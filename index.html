@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OneMD</title>
+    <script src="https://kit.fontawesome.com/e9c69e4c85.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Welcome Doctor, please register here.</h1>
+            <form aciton="CardPage.html" name="myForm" onsubmit="return validateForm()">
+                <div class="formdesign" id="name">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="fname" placeholder="Name" required><b><span class="formerror"> </span></b>
+                </div>
+
+                <div class="formdesign" id="email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" name="femail" placeholder="Email" required><b><span class="formerror">
+                        </span></b>
+                </div>
+
+                <div class="formdesign" id="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="phone" name="fphone" placeholder="Phone 10 digits" required><b><span
+                            class="formerror"></span></b>
+                </div>
+
+                <div class="formdesign" id="pass">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="fpass" placeholder="Password" required><b><span
+                            class="formerror"></span></b>
+                </div>
+
+                <div class="formdesign" id="cpass">
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" name="fcpass" placeholder="Confirm Password" required><b><span
+                            class="formerror"></span></b>
+                </div>
+
+                <div class="formdesign" id="degrees">
+
+
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <input type="text" id="degree" name="degree" placeholder="Write Your Degrees" required>
+
+                    <b><span class="formerror"></span></b>
+                </div>
+
+
+                <div class="formdesign" id="graduationDate">
+
+                    Date of Graduation: <input type="date" name="fgraduationDate" required>
+                    <b><span class="formerror"></span></b>
+                </div>
+
+
+                <input onclick="myOnclick()" class="but" type="submit" value="Submit">
+
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js">
+    <form action="CardPage.html">
+    </form>
+</script>
+
+</html>
