@@ -28,7 +28,7 @@ function validateForm()
     clearErrors();
 
     //perform validation and if validation fails, set the value of returnval to false
-    var name = document.forms['myForm']["fname"].value;
+    var name = document.forms['myForm']["name"].value;
     if (name.length<5){
         seterror("name", "*Length of name is too short");
         returnval = false;
@@ -39,7 +39,7 @@ function validateForm()
         returnval = false;
     }
 
-    var email = document.forms['myForm']["femail"].value;
+    var email = document.forms['myForm']["email"].value;
     if (email.length>15){
         seterror("email", "*Email length is too long");
         returnval = false;

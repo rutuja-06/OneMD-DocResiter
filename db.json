@@ -1,0 +1,46 @@
+{
+  "user": [
+    {
+      "name": "dassssssss",
+      "email": "rutu@dd.in",
+      "phone": "6677889945",
+      "pass": "aaaa@3333",
+      "degrees": "MD",
+      "graduationDates": "2023-10-05",
+      "id": 1
+    },
+    {
+      "name": "dassssssss",
+      "email": "rutu@dd.in",
+      "phone": "6677889945",
+      "pass": "deqf3eg5",
+      "degrees": "hghg",
+      "graduationDates": "2023-11-03",
+      "online": "700",
+      "inperson": "12000",
+      "id": 2
+    },
+    {
+      "name": "ddddddddddddddddd",
+      "email": "rutu@dd.in",
+      "phone": "6677889945",
+      "pass": "Sanskar@123",
+      "degrees": "MD",
+      "graduationDates": "2023-11-02",
+      "online": "700",
+      "inperson": "97777775",
+      "id": 3
+    },
+    {
+      "name": "rutu",
+      "email": "jhj@fdfdfd",
+      "phone": "6677889945",
+      "pass": "Sanskar@123",
+      "degrees": "MD",
+      "graduationDates": "2023-11-01",
+      "online": "700",
+      "inperson": "12000",
+      "id": 4
+    }
+  ]
+}

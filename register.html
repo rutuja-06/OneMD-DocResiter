@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-register.css">
+</head>
+
+<body>
+    <div class="Rectangle">
+        <div class="container">
+            Registration
+
+        </div>
+
+        <form id="sample-form" name="myForm">
+            <span class="Contact-info">
+                Contact Information
+            </span>
+
+            <div class="form">
+                <div class="">
+                    <span class="">
+                        Mobile Number
+                    </span>
+                    <input class="input-box" type="phone" id="phone" name="phone" required><b><span
+                            class="formerror"></span></b>
+                </div>
+
+                <div>
+                    Email Address
+                    <input type="email" id="email" name="email" class="input-box" required><b><span class="formerror">
+                        </span></b>
+                </div>
+
+                <div class="">
+                    <span class="">
+                        Full Name
+                    </span>
+                    <input class="input-box" type="text" name="name" id="name" required><b><span class="formerror">
+                        </span></b>
+                </div>
+
+                <div class="">
+                    <span class="">
+                        Set Password
+                    </span>
+                    <input class="input-box" type="password" id="pass" name="fpass" required><b><span
+                            class="formerror"></span></b>
+                </div>
+
+                <div class="">
+                    Confirm Password
+                    <input class="input-box" type="password" id="cpass" name="fcpass" required><b><span
+                            class="formerror"></span></b>
+                </div>
+
+                <div class="">
+
+                    Date of Graduation <input class="input-box" type="date" id="graduationDate" name="fgraduationDate"
+                        required>
+                    <b><span class="formerror"></span></b>
+                </div>
+
+                <div>
+
+                    Degree 1
+                    
+                    <input class="input-box" type="text" id="degrees" id="degree" name="degree" required>
+
+                    <b><span class="formerror"></span></b>
+                    
+
+                    <div id="degree-section">
+
+                        
+                    </div>
+                </div>
+                <button onclick="DegreeSectionAdd()" id="adDegree" class="flex-box-2" type="button" value="Add Degree">Add Another</button>
+
+
+                <div>
+                    Online Consult Fee
+                    <input class="input-box" type="text" id="online" name="online" placeholder="&#8377 1500" required>
+                </div>
+                <div>
+                    In-Person Consult Fee
+                    <input class="input-box" type="text" id="inperson" name="inperson" placeholder="&#8377 1500" required>
+                </div>
+
+
+            </div>
+            <input id="jsonbtn" class="button2" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+<!-- <script src="/path/to/cdn/jquery.min.js"></script> -->
+<script src="register.js"></script>
+
+</html>
