@@ -1,0 +1,118 @@
+.Rectangle {
+    margin: auto;
+    /* width: 360px; */
+    background-color: #f1f1f1;
+    box-shadow: 0 -5px 6px -3px rgba(0, 0, 0, 0.2), 0 -9px 12px 1px rgba(0, 0, 0, 0.14);
+}
+
+.container {
+    height: 100px;
+    background-color: #090c28;
+    align-items: center;
+    align-items: center;
+    max-width: 100%;
+    padding-top: 50px;
+    margin: 0 auto 30px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+
+.Contact-info {
+    padding: 10px 15px 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.form {
+    padding: 10px 10px 20px;
+    color: #0f0f0f;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.formdesign {
+    display: flex;
+}
+
+.input-box {
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+    margin: 12px 20px 24px 0;
+    padding: 7px 10px 8px 8px;
+    border-radius: 8px;
+    box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.04);
+    border: solid 2px #20254d;
+    background-color: #fff;
+}
+
+.button2 {
+    margin: 2px 74px;
+    width: 200px;
+    color: #fff;
+    padding: 8px 32px;
+    background-color: #00836c;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border: solid 2px #00836c;
+    font-weight: bold;
+    box-shadow: 0 5px 6px 3px rgba(0, 0, 0, 0.2), 0 9px 12px 1px rgba(64, 181, 109, 0.658);
+}
+
+
+
+.adDegree {
+    display: flex;
+    float: right;
+    width: 100%;
+    height: 32px;
+    margin: 2px 0 23px auto;
+    padding: 8px 16.2px 8px 13.8px;
+    border-radius: 8px;
+    border: solid 2px #2b665c;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+.flex-box-2 {
+    display: flex;
+    justify-content: right;
+    width: 100px;
+    height: 32px;
+    margin: 4px 0 24px auto;
+    padding: 8px 16.2px 8px 5.8px;
+    border-radius: 8px;
+    border: solid 2px #2b665c;
+    background-color: #fff;
+    color: #2b665c;
+
+}
+
+.degree-section {
+    width: 100%;
+    justify-content: right;
+}
+
+.icon{
+    white-space: nowrap;
+    padding: 15px;
+    text-align: center;
+    vertical-align: bottom;
+}

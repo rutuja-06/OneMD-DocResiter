@@ -1,0 +1,19 @@
+
+.container{
+    height: 100px;
+    background-color: #090c28;
+    align-items: center;
+    align-items: center;
+    max-width: 100%;
+    padding-top: 50px;
+    margin: 0 auto 30px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.cards{
+    display: inline;
+}

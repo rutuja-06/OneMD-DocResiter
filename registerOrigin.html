@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OneMD</title>
+    <script src="https://kit.fontawesome.com/e9c69e4c85.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Welcome Doctor, please register here.</h1>
+            <form id="sample-form" aciton="http://localhost:3000/posts" method="post" name="myForm" onsubmit="return validateForm()">
+                <div class="formdesign" >
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="fname" id="name" placeholder="Name" required><b><span class="formerror"> </span></b>
+                </div>
+
+                <div class="formdesign" >
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="email" name="femail" placeholder="Email" required><b><span class="formerror">
+                        </span></b>
+                </div>
+
+                <div class="formdesign" >
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="phone" id="phone" name="fphone" placeholder="Phone 10 digits" required><b><span
+                            class="formerror"></span></b>
+                </div>
+
+                <div class="formdesign" >
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="pass" name="fpass" placeholder="Password" required><b><span
+                            class="formerror"></span></b>
+                </div>
+
+                <div class="formdesign" >
+                    <i class="fa-solid fa-key"></i>
+                    <input type="password" id="cpass" name="fcpass" placeholder="Confirm Password" required><b><span
+                            class="formerror"></span></b>
+                </div>
+
+                <div class="formdesign" >
+
+
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <input type="text" id="degrees" id="degree" name="degree" placeholder="Write Your Degrees" required>
+
+                    <b><span class="formerror"></span></b>
+                </div>
+
+
+                <div class="formdesign" >
+
+                    Date of Graduation: <input type="date" id="graduationDate" name="fgraduationDate" required>
+                    <b><span class="formerror"></span></b>
+                </div>
+
+
+                <input onclick="myOnclick()" id="jsonbtn" class="but" type="submit" value="Submit">
+
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js">
+    <form action="CardPage.html">
+    </form>
+</script>
+<script src="/path/to/cdn/jquery.min.js"></script>
+<script src="register.js"></script>
+
+</html>

@@ -1,362 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doctor's Profile</title>
-    <style>
-        body {
-            background-image: linear-gradient(to right, rgba(89, 89, 171, 0.8), rgba(0, 0, 50, 1));
-            /* background-color:  #6060a4; */
-            /* align-items: center; */
-            text-align: center;
-        }
-
-        h1 {
-            color: antiquewhite;
-            padding: 10px 20px;
-            background-color: #191970;
-            border-radius: 8px;
-        }
-
-        .block-container {
-            margin: 0 -5px;
-            align-items: center;
-            position: relative;
-            /* display: grid; */
-            /* display: flex; */
-        }
-
-        .card {
-
-            /* align-items: center;
-            justify-content: center;
-            float: left;
-            display: flex;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            margin: 10px;
-            padding: 10px;
-            width: 330px; */
-            align-items: center;
-            float: left;
-            display: flex;
-            width: calc(33.33% - 70px);
-            /* Adjust the width as needed */
-            border: 1px solid #ccc;
-            margin: 10px;
-            padding: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            text-align: center;
-
-        }
-
-        .row {
-            /* align-items: center; */
-            text-align: left;
-            justify-content: center;
-            display: flex;
-            border-radius: 10px;
-            margin: 10px;
-            padding: 10px;
-            width: 300px;
-            
-        }
-
-
-        .card img {
-            border: 1px solid #f32c2c;
-            border-radius: 50%;
-            width: 100px;
-            height: 100px;
-            margin-right: 10px;
-        }
-
-        .card-info {
-            flex-grow: 1;
-        }
-
-        .button-container {
-            display: flex;
-            justify-content: center;
-            text-align: center;
-        }
-
-        .book-button {
-            background-color: #20ba20;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-        }
-
-        span {
-            color: #665b5b;
-        }
-
-        @media screen and (max-width: 600px) {
-            /* Adjust styles for screens with a maximum width of 600px (e.g., smartphones) */
-            .container {
-                margin: 0; /* Remove negative margin to fit cards on smaller screens */
-            }
-
-            .card {
-                max-width: 100%; /* Cards take full width on smaller screens */
-            }
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="card-style.css">
 </head>
-
 <body>
-    <h1>Registered Doctor</h1>
-
-    <div class="block-container">
-        <div class="card">
-
-            <div class="row">
-                <div class="exp">
-                    <img src="doctor1.jpg" alt="Doctor 2">
-                    <p>Experience <br> 8 years</p>
-                </div>
-
-                <div class="card-info">
-                    <h2>Dr. Jane Smith</h2>
-                    <p><span>MD, Pediatrician</span></p>
-                    <!-- Added experience field -->
-
-                    <p id="time" style="background-color:#b0a8a8;">Available: Tuesday, 2:00 PM - 6:00 PM</p>
-                    <p>Fee: <br> &#8377;80 <span>Online Counsult</span> <br>&#8377;80<span> In-Person Counsult</span>
-                    </p>
-                    <div class="button-container">
-                        <button class="book-button">Book Appointment</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="row">
-                <div class="exp">
-                    <img src="doctor4.jpg" alt="Doctor 2">
-                    <p>Experience <br> 8 years</p>
-                </div>
-
-                <div class="card-info">
-                    <h2>Dr. Soniya Smith</h2>
-                    <p><span>MD, Pediatrician</span></p>
-                    <!-- Added experience field -->
-
-                    <p id="time" style="background-color:#b0a8a8;">Available: Tuesday, 2:00 PM - 6:00 PM</p>
-                    <p>Fee: <br> &#8377;80 <span>Online Counsult</span> <br>&#8377;80<span> In-Person Counsult</span>
-                    </p>
-                    <div class="button-container">
-                        <button class="book-button">Book Appointment</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="row">
-                <div class="exp">
-                    <img src="doctor2.jpg" alt="Doctor 2">
-                    <p>Experience <br> 3 years</p>
-                </div>
-
-                <div class="card-info">
-                    <h2>Dr. Hemi Ronin</h2>
-                    <p><span>MD, Pediatrician</span></p>
-                    <!-- Added experience field -->
-
-                    <p id="time" style="background-color:#b0a8a8;">Available: Tuesday, 2:00 PM - 6:00 PM</p>
-                    <p>Fee: <br> &#8377;80 <span>Online Counsult</span> <br>&#8377;80<span> In-Person Counsult</span>
-                    </p>
-                    <div class="button-container">
-                        <button class="book-button">Book Appointment</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="row">
-                <div class="exp">
-                    <img src="doctor3.jpg" alt="Doctor 2">
-                    <p>Experience <br> 8 years</p>
-                </div>
-
-                <div class="card-info">
-                    <h2>Dr. Shloka Rane</h2>
-                    <p><span>MD, Pediatrician</span></p>
-                    <!-- Added experience field -->
-
-                    <p id="time" style="background-color:#b0a8a8;">Available: Tuesday, 2:00 PM - 6:00 PM</p>
-                    <p>Fee: <br> &#8377;80 <span>Online Counsult</span> <br>&#8377;80<span> In-Person Counsult</span>
-                    </p>
-                    <div class="button-container">
-                        <button class="book-button">Book Appointment</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="row">
-                <div class="exp">
-                    <img src="doctor4.jpg" alt="Doctor 2">
-                    <p>Experience <br> 8 years</p>
-                </div>
-
-                <div class="card-info">
-                    <h2>Dr. Jagdish Bhos</h2>
-                    <p><span>MD, Pediatrician</span></p>
-                    <!-- Added experience field -->
-
-                    <p id="time" style="background-color:#b0a8a8;">Available: Tuesday, 2:00 PM - 6:00 PM</p>
-                    <p>Fee: <br> &#8377;80 <span>Online Counsult</span> <br>&#8377;80<span> In-Person Counsult</span>
-                    </p>
-                    <div class="button-container">
-                        <button class="book-button">Book Appointment</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="row">
-                <div class="exp">
-                    <img src="doctor5.jpg" alt="Doctor 2">
-                    <p>Experience <br> 8 years</p>
-                </div>
-
-                <div class="card-info">
-                    <h2>Dr. Mirani Modi</h2>
-                    <p><span>MD, Pediatrician</span></p>
-                    <!-- Added experience field -->
-
-                    <p id="time" style="background-color:#b0a8a8;">Available: Tuesday, 2:00 PM - 6:00 PM</p>
-                    <p>Fee: <br> &#8377;80 <span>Online Counsult</span> <br>&#8377;80<span> In-Person Counsult</span>
-                    </p>
-                    <div class="button-container">
-                        <button class="book-button">Book Appointment</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="row">
-                <div class="exp">
-                    <img src="doctor2.jpg" alt="Doctor 2">
-                    <p>Experience <br> 8 years</p>
-                </div>
-
-                <div class="card-info">
-                    <h2>Dr. Jane Smith</h2>
-                    <p><span>MD, Pediatrician</span></p>
-                    <!-- Added experience field -->
-
-                    <p id="time" style="background-color:#b0a8a8;">Available: Tuesday, 2:00 PM - 6:00 PM</p>
-                    <p>Fee: <br> &#8377;80 <span>Online Counsult</span> <br>&#8377;80<span> In-Person Counsult</span>
-                    </p>
-                    <div class="button-container">
-                        <button class="book-button">Book Appointment</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="row">
-                <div class="exp">
-                    <img src="doctor3.jpg" alt="Doctor 2">
-                    <p>Experience <br> 8 years</p>
-                </div>
-
-                <div class="card-info">
-                    <h2>Dr. Jane Smith</h2>
-                    <p><span>MD, Pediatrician</span></p>
-                    <!-- Added experience field -->
-
-                    <p id="time" style="background-color:#b0a8a8;">Available: Tuesday, 2:00 PM - 6:00 PM</p>
-                    <p>Fee: <br> &#8377;80 <span>Online Counsult</span> <br>&#8377;80<span> In-Person Counsult</span>
-                    </p>
-                    <div class="button-container">
-                        <button class="book-button">Book Appointment</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="row">
-                <div class="exp">
-                    <img src="doctor4.jpg" alt="Doctor 2">
-                    <p>Experience <br> 8 years</p>
-                </div>
-
-                <div class="card-info">
-                    <h2>Dr. Jane Smith</h2>
-                    <p><span>MD, Pediatrician</span></p>
-                    <!-- Added experience field -->
-
-                    <p id="time" style="background-color:#b0a8a8;">Available: Tuesday, 2:00 PM - 6:00 PM</p>
-                    <p>Fee: <br> &#8377;80 <span>Online Counsult</span> <br>&#8377;80<span> In-Person Counsult</span>
-                    </p>
-                    <div class="button-container">
-                        <button class="book-button">Book Appointment</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-
-            <div class="row">
-                <div class="exp">
-                    <img src="doctor5.jpg" alt="Doctor 2">
-                    <p>Experience <br> 8 years</p>
-                </div>
-
-                <div class="card-info">
-                    <h2>Dr. Jane Smith</h2>
-                    <p><span>MD, Pediatrician</span></p>
-                    <!-- Added experience field -->
-
-                    <p id="time" style="background-color:#b0a8a8;">Available: Tuesday, 2:00 PM - 6:00 PM</p>
-                    <p>Fee: <br> &#8377;80 <span>Online Counsult</span> <br>&#8377;80<span> In-Person Counsult</span>
-                    </p>
-                    <div class="button-container">
-                        <button class="book-button">Book Appointment</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
-    </div>
-
-    <!-- Pagination buttons -->
     <div class="container">
-        <nav aria-label="Page navigation">
-            <ul class="pagination justify-content-center">
-                <li class="page-item" id="prev-page-button">
-                    <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">Previous &laquo;</span>
-                    </a>
-                </li>
-                <!-- Add more page number buttons here dynamically -->
-                <li class="page-item" id="next-page-button">
-                    <a class="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true">Next &raquo;</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</body>
+        Registration
 
+    </div>
+    <div id="cards" class="cards"> <!--container div-->
+        <div class="doctor-card">
+            <button>delete</button>
+            <div class="first-row">
+                <div class="column-one">
+                    <img src="" alt="">
+                </div>
+                <div class="column-two">
+                    <div class="name">Dr. Elon Musk</div>
+                    <div class="degree">MBBS, MD, DM</div>
+                    <div class="chip">Next Slot:</div>
+                </div>
+            </div>
+            <div>
+                <div class="column-one">
+
+                </div>
+                <div class="column-two">
+
+                </div>
+            </div>
+            <div class="button-row">
+                <button></button>
+            </div>
+        </div>
+    </div>
+    
+</body>
 </html>
